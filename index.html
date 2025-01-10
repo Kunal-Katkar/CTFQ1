@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio File Section</title>
+    <style>
+        body {
+            background-color: #d2b48c; /* Faint brown background */
+            font-family: Arial, sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .audio-section {
+            background-color: rgba(255, 255, 255, 0.8); /* Light transparent background for the audio section */
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        audio {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Green background for the button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #openLinkBtn {
+            visibility: hidden; /* Initially hide the button */
+        }
+    </style>
+</head>
+<body>
+  <!-- https://ibb.co/Password -->
+    <h1></h1>
+    <div class="audio-section">
+        <p>Click below to play the audio file:</p>
+        <audio controls>
+            <source src="xyz" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="openLinkBtn">This might help
+            <!-- v and n should be small -->
+        </button>
+        
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
